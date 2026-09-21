@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hrushikesh — Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">HT<span class="cursor">_</span></a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow-line">// hello, world</p>
+      <h1>Hrushikesh Tripathy builds<br>things for the web.</h1>
+      <p class="hero-sub">Front-end leaning full-stack developer based in Bhubaneswar. I turn
+      slow, clunky interfaces into fast ones people actually enjoy using.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap about-inner">
+      <div class="about-photo">
+        <img src="myprofessionalphoto.png" alt="Hrushikesh Tripathy">
+      </div>
+      <div class="about-text">
+        <h2>About</h2>
+        <p>I've spent the last six months building web products,I am also now learning more about web development so that I can build professional web products.</p>
+        <p>I care about the boring parts most people skip—load times,
+        keyboard navigation,what happens when the network drops.Outside
+        of work I'm usually reading science and research on brainstorming ideas.</p>
+        <p>Currently open to freelance work and short contract
+        engagements.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <ul>
+            <li>React</li>
+            <li>Node.js / Express</li>
+            <li>Next.js</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Practices</h3>
+          <ul>
+            <li>Responsive design</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <div class="wrap resume-inner">
+      <div>
+        <h2>Resume</h2>
+        <p>Full work history, education, and references available.</p>
+      </div>
+      <a href="Resume new.jpg" download class="btn btn-primary">Download resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-inner">
+      <h2>Let's talk</h2>
+      <p>Have a project in mind, or just want to say hi? My inbox is open.</p>
+      <div class="contact-details">
+        <a href="mailto:m7407590@gmail.com">m7407590@gmail.com</a>
+        <a href="tel:+919040105415">+91 9040105415</a>
+      </div>
+      <div class="contact-social">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/hrushikesh-tripathy-45416a38a" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Hrushikesh Tripathy</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
